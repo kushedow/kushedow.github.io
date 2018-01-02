@@ -1,51 +1,40 @@
-h1,h2,h3,h4 {
-  
-  font-family: Merriweather;
-  line-height: 1.5;
-  
-} 
 
-p { line-height: 1.5; font-size: 20px; }
+#header{ 
+  background-image: linear-gradient(-85deg, #7B46ED 0%, #4595E9 100%); 
+} 
 
-h2 { margin-bottom: 25px; }
-
-h4 { margin-bottom: 20px; }
-
-h5 { color: #999; font-weight: normal; }
-
-.container { padding: 30px; }
-
-.menu {display: block;  padding: 0; margin: 0;}
-
-.menu li {display: block; padding: 5px 0px}
-
-.menu li a {color: #444; text-decoration: none;}
-
-
- @media (min-width: 450px) and (max-width: 768px){
-    
-    .me{
-      
-       max-width:450px;
-      
-    }
+body.portfolio {
+  background-color: #222;
 }
 
 
- @media (min-width: 992px) {
-    
-    .container{
-      
-       padding: 60px;
-      
-    }
-   
-    .container main{
-      
-       padding-left: 50px;
-      
-    }  
-   
+header#darkmenu {
 
-  }
- 
+    background: #222;
+    padding: 20px 0;
+
+}
+
+header#darkmenu a {
+
+    color: #ccc;
+
+}
+
+
+main.main-dark { 
+  padding-top: 80px;
+  background-color: #222a32; 
+}
+
+h2.lead {
+
+    color: #fff;
+    font-size: 2em;
+
+}
+
+p.lead {
+    width: 650px;
+    margin: 25px auto;
+}
